@@ -7,6 +7,7 @@ header = """
     <title>%s</title>
 </head><body>
     <div class="container" id="main">
+        <img src="banner.jpg" style="float: right"/>
         <h1 id="title">%s</h1>
         <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
         <div class="span-8 colborder" id="sidebar">

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 to_emphasize = ('bachelors', 'masters', 'phd', 'doctoral')
 
 import itertools

@@ -1,4 +1,7 @@
-header = """
+# -*- coding: utf-8 -*-
+import codecs
+
+header = u"""
 <html><head>
     <link rel="stylesheet" type="text/css"  
         href="blueprintcss/typography.css"/>
@@ -13,11 +16,21 @@ header = """
         <div class="span-8 colborder" id="sidebar">
 """
 
-footer = """</div></div></body></html>"""
+footer = u"""</div></div></body></html>"""
 
-sidebar_divider = """</div><div class="span-15 last" id="content">"""
+sidebar_divider = u"""</div><div class="span-15 last" id="content">"""
 
 sanitize_major = lambda major: major.replace('/', '_')
+
+def html_escape(text):
+    text = text.replace(u'&', u'&amp;')
+    text = text.replace(u'"', u'&quot;')
+    text = text.replace(u"'", u'&#39;')
+    text = text.replace(u">", u'&gt;')
+    text = text.replace(u"<", u'&lt;')
+    text = text.replace(u"’", u'&apos;')
+    text = text.replace(u"–", u'&#150;')
+    return text
 
 def write_majors(f, mlists):
     f.write("""<h2>Majors</h2>""")
@@ -31,30 +44,30 @@ def write_majors(f, mlists):
     f.write(sidebar_divider)
 
 def write_company(f, c):
-    f.write('<h2>%s</h2>' % c.link())
-    f.write('<strong>Degrees:</strong> %s<br/>' % ', '.join(c.degrees))
-    f.write('<strong>Position types:</strong> %s<br/>' % ', '.join(c.position_types))
-    f.write('<strong>Majors:</strong> %s<br/>' % ', '.join(c.majors))
-    f.write('<br/>')
+    f.write(u'<h2>%s</h2>' % c.link())
+    f.write(u'<strong>Degrees:</strong> %s<br/>' % ', '.join(c.degrees))
+    f.write(u'<strong>Position types:</strong> %s<br/>' % ', '.join(c.position_types))
+    f.write(u'<strong>Majors:</strong> %s<br/>' % ', '.join(c.majors))
+    f.write(u'<br/>')
     
-    f.write('<strong>Contact:</strong> <a href="mailto:%s">%s</a><br/>' % (c.contact_email, c.contact_name))
-    f.write('<strong>Phone:</strong> %s <strong>Fax:</strong> %s<br/>' % (c.phone, c.fax))
-    f.write('<strong>Locations:</strong> %s<br/>' % c.locations)
-    f.write('<br/>')
+    f.write(u'<strong>Contact:</strong> <a href="mailto:%s">%s</a><br/>' % (c.contact_email, c.contact_name))
+    f.write(u'<strong>Phone:</strong> %s <strong>Fax:</strong> %s<br/>' % (c.phone, c.fax))
+    f.write(u'<strong>Locations:</strong> %s<br/>' % c.locations)
+    f.write(u'<br/>')
     
     if c.oci:
-        f.write('On-Campus Interviews<br/>')
+        f.write(u'On-Campus Interviews<br/>')
     if c.ocif:
-        f.write('On-Campus Interview Friday<br/>')
+        f.write(u'On-Campus Interview Friday<br/>')
     if c.session:
-        f.write('<strong>Session:</strong> %s<br/>' % c.session)
+        f.write('u<strong>Session:</strong> %s<br/>' % c.session)
     if c.oci or c.ocif or c.session:
-        f.write('<br/>')
+        f.write('u<br/>')
     
-    f.write('<br/>'.join(c.description.splitlines()))
+    f.write(html_escape(u'<br/>'.join(c.description.splitlines())))
 
 def gen_index(majors, companies, path, title):
-    with open('%s/index.html' % path, 'w') as f:
+    with codecs.open('%s/index.html' % path, mode='w', encoding='utf-8') as f:
         f.write(header % (title, title))
         write_majors(f, majors)
         for c in companies:
@@ -62,7 +75,7 @@ def gen_index(majors, companies, path, title):
         f.write(footer)
 
 def gen(major, majors, companies, path):
-    with open('%s/%s.html' % (path, sanitize_major(major)), 'w') as f:
+    with codecs.open('%s/%s.html' % (path, sanitize_major(major)), mode='w', encoding='utf-8') as f:
         t = 'Companies looking for %s majors' % major
         f.write(header % (t, t))
         write_majors(f, majors)

@@ -76,7 +76,7 @@ def gen_index(majors, companies, path, title):
 
 def gen(major, majors, companies, path):
     with codecs.open('%s/%s.html' % (path, sanitize_major(major)), mode='w', encoding='utf-8') as f:
-        t = 'Companies looking for %s majors' % major
+        t = u'Companies looking for %s majors' % major
         f.write(header % (t, t))
         write_majors(f, majors)
         for c in [x for x in companies if major in x.majors]:

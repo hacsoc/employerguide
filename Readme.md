@@ -21,4 +21,4 @@ This is a static site generator that generates web versions of CWRU career fair 
 
 Usage: `python2.7 careerfair.py spring/fall <year> <datafile.csv>`
 
-The results will be stored in `careerfair<season><year>/`, which should have a `blueprintcss` folder in it. This repository contains an example without the HTML.
+The results will be stored in `careerfair<season><year>/`, which should have a `blueprintcss` folder in it. This repository contains an example without the HTML. You can generate the example with `python2.7 careerfair.py spring 2011 employers_spring2011.csv`.

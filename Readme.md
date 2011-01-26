@@ -9,12 +9,14 @@ It takes UTF-8 CSV files with columns in this order:
 * Company Name
 * Web Address
 * Description
+* (junk)
 * Contact Name
 * Contact Title
 * Address
 * Contact Phone
 * Contact Fax
 * Contact Email
+* (junk)
 * Position Types 
 * Degrees 
 * Academic Programs 
@@ -24,4 +26,3 @@ It takes UTF-8 CSV files with columns in this order:
 * Professional Schools 
 * F-1
 * Location
-

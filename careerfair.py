@@ -36,8 +36,14 @@ if __name__ == '__main__':
     year = sys.argv[2]
     
     with codecs.open(sys.argv[3], mode='rb', encoding='utf-8') as f:
-        rows = list(unicode_csv_reader(f))[1:]
+        all_rows = list(unicode_csv_reader(f))
+        # test(all_rows[0])
+        rows = all_rows[1:]
         companies = {v[0]: Company(v) for v in rows}
+        try:
+            companies[u'Epic'].majors.add('Computer Science')
+        except KeyError:
+            pass
         sorted_companies = [companies[cn] for cn in sorted(companies.keys())]
         majors = set()
         mlists = [set(), set(), set(), set(), set()]
@@ -52,3 +58,6 @@ if __name__ == '__main__':
     gen_index(mlists, sorted_companies, 
               u'careerfair%s%s' % (season_abbrev, year), 
               u'CWRU Career Fair %s %s Employer Guide' % (season_name, year))
+    
+    # CS statistics
+    # print len([c for c in sorted_companies if 'Computer Science' in c.majors])/float(len(companies))

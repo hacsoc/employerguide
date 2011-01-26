@@ -10,7 +10,7 @@ header = u"""
     <title>%s</title>
 </head><body>
     <div class="container" id="main">
-        <img src="banner.jpg" style="float: right"/>
+        <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>
         <h1 id="title">%s</h1>
         <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
         <div class="span-8 colborder" id="sidebar">
@@ -34,11 +34,12 @@ def html_escape(text):
 
 def write_majors(f, mlists):
     f.write("""<h2>Majors</h2>""")
-    titles = ('Academic Programs', 'College of Arts and Sciences', 
+    titles = ('', 'College of Arts and Sciences', 
               'Case School of Engineering', 'Weatherhead School of Management', 
               'Professional Schools')
     for l, t in zip(mlists, titles):
-        f.write("""<h3>%s</h3>""" % t)
+        if t:
+            f.write("""<h3>%s</h3>""" % t)
         for m in sorted(l):
             f.write('<a href="%s.html">%s</a><br/>' % (sanitize_major(m), m))
     f.write(sidebar_divider)
@@ -48,11 +49,13 @@ def write_company(f, c):
     f.write(u'<strong>Degrees:</strong> %s<br/>' % ', '.join(c.degrees))
     f.write(u'<strong>Position types:</strong> %s<br/>' % ', '.join(c.position_types))
     f.write(u'<strong>Majors:</strong> %s<br/>' % ', '.join(c.majors))
+    f.write(u'<strong>Locations:</strong> %s<br/>' % c.locations)
+    f.write(u'<strong>F1:</strong> %s<br/>' % (u'Yes' if c.f1 else u'No'))
     f.write(u'<br/>')
     
-    f.write(u'<strong>Contact:</strong> <a href="mailto:%s">%s</a><br/>' % (c.contact_email, c.contact_name))
+    f.write(u'<strong>Contact:</strong> <a href="mailto:%s">%s</a>, %s<br/>' % (c.contact_email, c.contact_name, c.contact_title))
     f.write(u'<strong>Phone:</strong> %s <strong>Fax:</strong> %s<br/>' % (c.phone, c.fax))
-    f.write(u'<strong>Locations:</strong> %s<br/>' % c.locations)
+    f.write(u'<strong>Address:</strong> <br/>%s<br/>' % c.address)
     f.write(u'<br/>')
     
     if c.oci:

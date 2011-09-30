@@ -1,28 +1,19 @@
 This is a static site generator that generates web versions of CWRU career fair employer guides.
 
-Usage: `python2.7 careerfair.py spring/fall <year> <datafile.csv>`
 
-The results will be stored in `careerfair<season><year>/`, which should have a `blueprintcss` folder in it. This repository contains an example without the HTML. You can generate the example with `python2.7 careerfair.py spring 2011 employers_spring2011.csv`.
+    > python3 careerfair.py --help
+    usage: careerfair.py [-h] {spring,fall} year data
 
-It takes UTF-8 CSV files with columns in this order:
+    Generate static HTML site for the CWRU career fair employer guide
 
-* Company Name
-* Web Address
-* Description
-* (junk)
-* Contact Name
-* Contact Title
-* Address
-* Contact Phone
-* Contact Fax
-* Contact Email
-* (junk)
-* Position Types 
-* Degrees 
-* Academic Programs 
-* College of Arts and Sciences 
-* Case School of Engineering 
-* Weatherhead School of Management 
-* Professional Schools 
-* F-1
-* Location
+    positional arguments:
+      {spring,fall}
+      year
+      data           CSV file
+
+    optional arguments:
+      -h, --help     show this help message and exit
+
+Output will be in `{season}{year}/`. `index.html` will link to files in that directory.
+
+The CSV columns are defined in `company.py`.

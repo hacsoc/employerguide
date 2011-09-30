@@ -3,6 +3,7 @@ import csv
 import itertools
 import os
 import re
+import shutil
 
 import jinja2
 
@@ -48,10 +49,12 @@ def process(args):
                                   key=lambda c: c.name)
         all_companies = {c.name: c for c in sorted_companies}
         majors = set()
-        mlists = [set() for i in range(5)]
+        mlists = [set() for i in range(4)]
+        all_degrees = set()
         for c in all_companies.values():
             majors = majors | set(c.majors)
-            for i in range(5):
+            all_degrees = all_degrees | set(c.degrees)
+            for i in range(len(mlists)):
                 mlists[i] = mlists[i] | set(c.mlists[i])
 
         titles = ('Degrees',
@@ -59,16 +62,13 @@ def process(args):
                   'Case School of Engineering',
                   'Weatherhead School of Management',
                   'Professional Schools')
-        sections = zip(titles, mlists)
-
-    for company in sorted_companies:
-        print(company)
+        sections = zip(titles, [sorted(all_degrees)] + [sorted(l) for l in mlists])
 
     out_dir = '{args.season}{args.year}'.format(args=args)
-    try:
-        os.mkdir(out_dir)
-    except OSError:
-        pass
+    shutil.rmtree(out_dir)
+    os.mkdir(out_dir)
+
+    shutil.copytree('blueprintcss', os.path.join(out_dir, 'blueprintcss'))
 
     title = 'CWRU Career Fair {0} {1} Employer Guide'.format(season_name, args.year)
     companies = sorted_companies
@@ -77,7 +77,9 @@ def process(args):
     for major in majors:
         title = 'Companies looking for {0} majors'.format(major)
         companies = [c for c in sorted_companies if major in c.majors]
-        render('template.html', os.path.join(out_dir, sanitized(major)), **locals())
+        render('template.html',
+               os.path.join(out_dir, sanitized(major) + '.html'),
+               **locals())
 
 
 if __name__ == '__main__':

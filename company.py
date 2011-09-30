@@ -36,6 +36,16 @@ def parse_nested_lists(mlists):
 def liberate_semicolon_strings(s):
     return [m.strip() for m in s.split(';') if m.strip()]
 
+def html_escape(text):
+    text = text.replace('&', '&amp;')
+    text = text.replace('"', '&quot;')
+    text = text.replace("'", '&#39;')
+    text = text.replace(">", '&gt;')
+    text = text.replace("<", '&lt;')
+    text = text.replace("’", '&apos;')
+    text = text.replace("–", '&#150;')
+    return text
+
 LOWER = 0
 UPPER = 1
 DIGIT = 2
@@ -95,37 +105,29 @@ def fix_address(a):
         secondline = ' '.join(words[index_of_first_number:-3])
         return "%s<br/>%s<br/>%s, %s %s" % (firstline, secondline, city, state, zipcode)
 
-NAME_URL_DESC = (0, 3)
-CONTACTNAME = (4, 6)
-CONTACTINFO = (6, 10)
-POSITIONTYPES = 11
-DEGREES = 12
-MAJORS = (13, 18)
-F1 = 18
-LOCATIONS = 19
 
 class Company(object):
     def __init__(self, *values):
         cols = Cols(*values)
         self.name = cols.company_name
         self.url = cols.url
-        self.description = cols.description
+        self.description = html_escape(cols.description)
         self.contact_name = cols.contact_name
         self.contact_title = cols.contact_title
         self.contact_email = cols.contact_email
-        self.address = cols.address
-        # self.address = fix_address(cols.address)
+        # self.address = cols.address
+        self.address = fix_address(cols.address)
         self.phone = cols.phone
         self.fax = cols.fax
         self.position_types = liberate_semicolon_strings(cols.position_types)
         self.degrees = liberate_semicolon_strings(cols.degrees)
         
-        semi_mlists = (cols.degrees, cols.majors_artsci, cols.majors_eng,
+        semi_mlists = (cols.majors_artsci, cols.majors_eng,
                        cols.majors_mgmt, cols.majors_professional)
         self.mlists = [liberate_semicolon_strings(x) for x in semi_mlists]
         self.majors = reduce(lambda a, b: set(a) | set(b), self.mlists, set())
         
-        self.f1 = (cols.f1 == 'y')
+        self.f1 = (cols.f1.lower()  == 'y')
         self.locations = cols.locations
         self.session = ''
         self.oci = False

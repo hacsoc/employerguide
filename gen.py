@@ -8,6 +8,19 @@ header = u"""
     <link rel="stylesheet" type="text/css"  
         href="blueprintcss/grid.css"/>
     <title>%s</title>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4517625-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
 </head><body>
     <div class="container" id="main">
         <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>

@@ -62,23 +62,34 @@ def process(args):
                   'Case School of Engineering',
                   'Weatherhead School of Management',
                   'Professional Schools')
-        sections = zip(titles, [sorted(all_degrees)] + [sorted(l) for l in mlists])
+        sections = list(zip(titles, [sorted(all_degrees)] + [sorted(l) for l in mlists]))
+
+    print(len([c for c in sorted_companies if 'Computer Science' in c.majors]))
+    print(len(sorted_companies))
 
     out_dir = '{args.season}{args.year}'.format(args=args)
     shutil.rmtree(out_dir)
     os.mkdir(out_dir)
 
-    shutil.copytree('blueprintcss', os.path.join(out_dir, 'blueprintcss'))
+    shutil.copytree('content', os.path.join(out_dir, 'content'))
 
     title = 'CWRU Career Fair {0} {1} Employer Guide'.format(season_name, args.year)
     companies = sorted_companies
     render('template.html', os.path.join(out_dir, 'index.html'), **locals())
+    render('template.html', 'index.html', prefix='{0}/'.format(out_dir),**locals())
 
     for major in majors:
         title = 'Companies looking for {0} majors'.format(major)
         companies = [c for c in sorted_companies if major in c.majors]
         render('template.html',
                os.path.join(out_dir, sanitized(major) + '.html'),
+               **locals())
+
+    for degree in all_degrees:
+        title = 'Companies looking for {0} students'.format(degree)
+        companies = [c for c in sorted_companies if degree in c.degrees]
+        render('template.html',
+               os.path.join(out_dir, sanitized(degree) + '.html'),
                **locals())
 
 

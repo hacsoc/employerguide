@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  
+            href="content/blueprintcss/typography.css"/>
+        <link rel="stylesheet" type="text/css"  
+            href="content/blueprintcss/grid.css"/>
+            <title>{{ title }}</title>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25939700-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+
+        <style type="text/css">
+            ul {
+                margin-left: 0;
+                padding-left: 0;
+            }
+            li {
+                margin-left: 0;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <a href="http://studentaffairs.case.edu/careers/"><img src="{{ prefix }}content/banner.jpg" style="float: right"/></a>
+        <h1 id="title">{{ title }}</h1>
+        <h3>Produced by members of the
+            <a href="http://hacsoc.github.com/">CWRU Hacker Society</a>
+        </h3>
+        <div class="span-8 colborder" id="sidebar">
+            <a href="index.html">All</a>
+            <h2>Majors</h2>
+            {% for section_title, majors in sections %}
+                {% if section_title %}<h3>{{ section_title }}</h3>{% endif %}
+                <ul>
+                {% for major in majors %}
+                    <li><a href="{{ prefix }}{{ major|sanitized }}.html">{{ major }}</a></li>
+                {% endfor %}
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="span-15 last" id="content">
+            {% for company in companies %}
+                <h2><a href="{{ company.url }}">{{ company.name }}</a></h2>
+                <strong>Degrees:</strong> {{ company.degrees|commajoin }}<br/>
+                <strong>Position types:</strong> {{ company.position_types|commajoin }}<br/>
+                <strong>Majors:</strong> {{ company.majors|commajoin }}<br/>
+                <strong>Locations:</strong> {{ company.locations }}<br/>
+                <strong>F1:</strong> {{ company.f1|yesorno }}<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:{{ company.contact_email }}">{{ company.contact_name }}</a>, {{ company.contact_title }}<br/>
+                <strong>Phone:</strong> {{ company.phone }}
+                {% if company.fax %}<strong>Fax:</strong> {{ company.fax }}{% endif %}<br/>
+                <strong>Address:</strong><br/>{{ company.address }}<br/>
+                <br/>
+                <strong>Description:</strong>
+                <p>{{ company.description }}</p>
+            {% endfor %}
+        </div>
+    </body>
+</html>

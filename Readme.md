@@ -19,3 +19,5 @@ Output will be in `{season}{year}/`. `index.html` in the root directory will lin
 Files in `content/` will be copied to the output directory.
 
 The CSV columns are defined in `company.py`.
+
+Make sure changes get to the `gh-pages` branch and are pushed from there.

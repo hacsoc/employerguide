@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/typography.css"/>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/grid.css"/>
+        <title>%s</title>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25939700-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>
+        <h1 id="title">Companies looking for Political Science majors</h1>
+        <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
+        <div class="span-8 colborder" id="sidebar">
+            <h2>Majors</h2>
+            
+        </div>
+        <div class="span-15 last" id="content">
+            
+                <h2><a href="http://www.healthcare.goarmy.com">Cleveland Medical Recruiting - U.S. Army</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Part-Time, Full Time<br/>
+                <strong>Majors:</strong> Masters, Sociology, Psychology, Mandel School of Applied Social Sciences (social work) (G), Doctoral, All Sciences, Communication Disorders/Cognitive Science, Bachelors, Political Science<br/>
+                <strong>Locations:</strong> Worldwide<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:valerie.rarick@usarec.army.mil">Valerie E. Rarick</a>, CPT<br/>
+                <strong>Phone:</strong> 440-891-1800
+                    <strong>Fax:</strong> 440-891-1823<br/>
+                <strong>Address:</strong> 7550 Lucerne Dr. Ste 101Middleburg Heights, OH 44130<br/>
+            
+                <h2><a href="http://datel-group.com">DATEL Software Solutions</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Physics/Astronomy, Sociology, Psychology, Geology/Environmental Studies, Biochemistry, Interdisciplinary Programs and Modern Languages, Engineering Mechanics (G), All Sciences, Fluid and Thermal (G), Chemical, Electrical, Biomedical, Political Science, All Weatherhead, Finance (G), Macromolecular Science (G), Management -- Finance (U), Nutrition, English/Classics/Literature, Mathematics/Statistics, Supply Chain (G), Anthropology, Management -- Marketing (U), Systems & Control, Computer Science, Aerospace, All Engineering, Positive Organizational Development (G), Economics, MBA (G), Accounting/Accountancy, All Arts, Humanities, & Social Sciences, Operations Research (G), Engineering Physics (U), Communication Disorders/Cognitive Science, Bachelors, Master of Engineering Management (G), Mechanical, Philosophy/Religious Studies, Chemistry/Natural Sciences, History, Music/Music Education/Theatre/Dance, Civil, Materials Science, Teacher Education, Computer Engineering, Polymer Science, Art History/Art Education, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh, PA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:dlemke@datel-group.com">Dan Lemke</a>, Principal<br/>
+                <strong>Phone:</strong> 724-940-5150
+                    <strong>Fax:</strong> 724-940-5147<br/>
+                <strong>Address:</strong> DATEL Software Solutions12300 Perry HighwaySte. 306Wexford, PA. 15090<br/>
+            
+                <h2><a href="http://newyorklife.com/corporatecareers">New York Life Insurance Company</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time<br/>
+                <strong>Majors:</strong> Sociology, Psychology, Management -- Marketing (U), All Arts, Humanities, & Social Sciences, Economics, Bachelors, Political Science, Finance (G), Management -- Finance (U), History<br/>
+                <strong>Locations:</strong> Cleveland, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:nancy_maksomski@newyorklife.com">Nancy Maksomski</a>, Dirctor Talent Acquisition<br/>
+                <strong>Phone:</strong> 212-576-5714
+                    <strong>Fax:</strong> 212-447-4292<br/>
+                <strong>Address:</strong> 51 Madison AvenueRoom 108NY, NY 10013<br/>
+            
+                <h2><a href="http://www.prudential.com">Prudential</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op<br/>
+                <strong>Majors:</strong> Masters, Sociology, Psychology, Mathematics/Statistics, All Arts, Humanities, & Social Sciences, Bachelors, Political Science, All Weatherhead<br/>
+                <strong>Locations:</strong> Mayfield Hts, Akron<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:veronica.vecchio@prudential.com">Veronica Vecchio</a>, Manager, Agency Recruiter<br/>
+                <strong>Phone:</strong> 440-684-4409
+                    <strong>Fax:</strong> 440-684-0492<br/>
+                <strong>Address:</strong> 5875 Landerbrook Dr, Suite 110Mayfield Hts, Ohio 44124<br/>
+            
+        </div>
+    </body>
+</html>

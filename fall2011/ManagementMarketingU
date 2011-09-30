@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/typography.css"/>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/grid.css"/>
+        <title>%s</title>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25939700-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>
+        <h1 id="title">Companies looking for Management -- Marketing (U) majors</h1>
+        <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
+        <div class="span-8 colborder" id="sidebar">
+            <h2>Majors</h2>
+            
+        </div>
+        <div class="span-15 last" id="content">
+            
+                <h2><a href="http://www.alcoa.com">Alcoa</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Accounting/Accountancy, Economics, Engineering Mechanics (G), Chemical, Bachelors, Master of Engineering Management (G), Supply Chain (G), Mechanical, Finance (G), Management -- Finance (U), MBA (G), Management -- Marketing (U), Computer Engineering, Computer Science, Aerospace, Electrical, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> US<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:mitzi.chiple@alcoa.com">Mitzi Chiple</a>, HR & Talent Analyst<br/>
+                <strong>Phone:</strong> 216-641-4408
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 6450 Rockside Blvd. S. Ste. 350Independence, OH 44131<br/>
+            
+                <h2><a href="http://www.corporate.americangreetings.com">American Greetings Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Economics, English/Classics/Literature, Mathematics/Statistics, Management -- Marketing (U), All Arts, Humanities, & Social Sciences, Operations Research (G), Bachelors, Supply Chain (G), Psychology<br/>
+                <strong>Locations:</strong> Cleveland, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:chris.mahon@amgreetings.com">Christine Mahon</a>, Corporate Recruiter<br/>
+                <strong>Phone:</strong> 216-252-7300
+                    <strong>Fax:</strong> 216-252-6590<br/>
+                <strong>Address:</strong> One American Rd.Cleveland, OH  44144<br/>
+            
+                <h2><a href="http://www.ameriprise.com">Ameriprise Financial</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Management -- Marketing (U), Bachelors, Mathematics/Statistics, Accounting/Accountancy, Finance (G), Economics, Management -- Finance (U)<br/>
+                <strong>Locations:</strong> Minneapolis, MN<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:ameriprise@recsolu.com">Ginger Hassler</a>, Manager<br/>
+                <strong>Phone:</strong> 312-489-2218
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> Ameriprise Financial CenterMinneapolis, MN 55474<br/>
+            
+                <h2><a href="http://www.browsium.com">Browsium, Inc.</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Accounting/Accountancy, Doctoral, Management -- Marketing (U), Computer Engineering, Bachelors, Master of Engineering Management (G), Finance (G), Electrical, Management -- Finance (U), Computer Science<br/>
+                <strong>Locations:</strong> Seattle, WA, Washington, DC, and Cleveland, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:crowley@browsium.com">Matthew David Crowley</a>, Chief Technology Officer<br/>
+                <strong>Phone:</strong> 626-807-5306
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 4829 41st St. NWWashington, DC 20016<br/>
+            
+                <h2><a href="http://www.cleveland-research.com">Cleveland Research Company </a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Accounting/Accountancy, Economics, Management -- Marketing (U), Bachelors, All Weatherhead, Finance (G), Management -- Finance (U)<br/>
+                <strong>Locations:</strong> Cleveland Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:bcutright@cleveland-research.com">Brittany Cutright</a>, Recruiting Coordinator <br/>
+                <strong>Phone:</strong> 216-649-7278
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 1375 East 9th Street Suite 600 Cleveland, OH 44114<br/>
+            
+                <h2><a href="http://datel-group.com">DATEL Software Solutions</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Physics/Astronomy, Sociology, Psychology, Geology/Environmental Studies, Biochemistry, Interdisciplinary Programs and Modern Languages, Engineering Mechanics (G), All Sciences, Fluid and Thermal (G), Chemical, Electrical, Biomedical, Political Science, All Weatherhead, Finance (G), Macromolecular Science (G), Management -- Finance (U), Nutrition, English/Classics/Literature, Mathematics/Statistics, Supply Chain (G), Anthropology, Management -- Marketing (U), Systems & Control, Computer Science, Aerospace, All Engineering, Positive Organizational Development (G), Economics, MBA (G), Accounting/Accountancy, All Arts, Humanities, & Social Sciences, Operations Research (G), Engineering Physics (U), Communication Disorders/Cognitive Science, Bachelors, Master of Engineering Management (G), Mechanical, Philosophy/Religious Studies, Chemistry/Natural Sciences, History, Music/Music Education/Theatre/Dance, Civil, Materials Science, Teacher Education, Computer Engineering, Polymer Science, Art History/Art Education, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh, PA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:dlemke@datel-group.com">Dan Lemke</a>, Principal<br/>
+                <strong>Phone:</strong> 724-940-5150
+                    <strong>Fax:</strong> 724-940-5147<br/>
+                <strong>Address:</strong> DATEL Software Solutions12300 Perry HighwaySte. 306Wexford, PA. 15090<br/>
+            
+                <h2><a href="http://www.ddr.com">DDR - Developers Diversified Realty</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Accounting/Accountancy, Management -- Marketing (U), Economics, Bachelors, Management -- Finance (U)<br/>
+                <strong>Locations:</strong> Cleveland, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:jtichar@ddr.com">Joseph M. Tichar</a>, Corporate Operations Director<br/>
+                <strong>Phone:</strong> 216-755-6601
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 3300 Enterprise ParkwayBeachwood, OH 44122<br/>
+            
+                <h2><a href="http://www.garick.com">Garick</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Bachelors, Supply Chain (G), Accounting/Accountancy, Management -- Marketing (U), All Weatherhead<br/>
+                <strong>Locations:</strong> Cleveland, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:robin.tung@garick.com">Robin Tung</a>, Corp HR Manager<br/>
+                <strong>Phone:</strong> 216-581-0100
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 13600 Broadway Ave, Cleveland, OH 44125<br/>
+            
+                <h2><a href="http://www.joann.com">Jo-Ann Fabric & Craft Stores</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Accounting/Accountancy, Management -- Marketing (U), Bachelors, Computer Science, Supply Chain (G), Finance (G), Management -- Finance (U), Positive Organizational Development (G)<br/>
+                <strong>Locations:</strong> Hudson, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:karen.frey@joann.com">Karen Kennedy Frey</a>, Sr. Talent Acquisition Specialist<br/>
+                <strong>Phone:</strong> 330-463-5835
+                    <strong>Fax:</strong> 330-463-6977<br/>
+                <strong>Address:</strong> 5555 Darrow RoadHudson, OH  44236<br/>
+            
+                <h2><a href="http://www.lubrizol.com">Lubrizol</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Co-op, Internship<br/>
+                <strong>Majors:</strong> Management -- Marketing (U), Chemical, Accounting/Accountancy, Computer Engineering, Bachelors, Computer Science, Supply Chain (G), Mechanical, Chemistry/Natural Sciences, Management -- Finance (U)<br/>
+                <strong>Locations:</strong> Wickliffe, Ohio and Brecksville, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:debbie.derenzo@lubrizol.com">Debbie DeRenzo</a>, Corporate Recruiter<br/>
+                <strong>Phone:</strong> 440-347-1044
+                    <strong>Fax:</strong> 440-347-5317<br/>
+                <strong>Address:</strong> 29400 Lakeland BlvdWickliffe, OH 44092<br/>
+            
+                <h2><a href="http://MedMutual.com">Medical Mutual of Ohio</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Masters, Economics, Management -- Marketing (U), All Engineering, Engineering Mechanics (G), All Sciences, Communication Disorders/Cognitive Science, Bachelors, Finance (G), Chemistry/Natural Sciences, Management -- Finance (U), MBA (G), Mathematics/Statistics, All Arts, Humanities, & Social Sciences, Accounting/Accountancy, Computer Science<br/>
+                <strong>Locations:</strong> Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:Boston.Santiago@mmoh.com">Boston Santiago</a>, Human Resource Assistant<br/>
+                <strong>Phone:</strong> 216-687-2867
+                    <strong>Fax:</strong> 216-687-1960<br/>
+                <strong>Address:</strong> 2060 E. 9th StreetCleveland, Ohio 44115<br/>
+            
+                <h2><a href="http://www.moen.com">Moen Incorporated</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Accounting/Accountancy, Engineering Mechanics (G), Operations Research (G), Fluid and Thermal (G), Chemical, Bachelors, Supply Chain (G), Mechanical, Finance (G), Engineering Physics (U), Management -- Finance (U), MBA (G), Mathematics/Statistics, Management -- Marketing (U), Systems & Control, Positive Organizational Development (G), Electrical, Polymer Science, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> North Olmsted, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:joe.kenderes@moen.com">Joe Kenderes</a>, Talent Acquisition Specialist<br/>
+                <strong>Phone:</strong> 440-962-2376
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 25300 Al Moen DriveNorth Olmsted, OH 44070<br/>
+            
+                <h2><a href="http://www.networktechinc.com/">Network Technologies, Inc.  </a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Co-op<br/>
+                <strong>Majors:</strong> Management -- Marketing (U), Electrical, Bachelors, Mechanical<br/>
+                <strong>Locations:</strong> Aurora, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:Stephanie.Duchnowski@ntigo.com">Stephanie Duchnowski</a>, Human Resources Supervisor<br/>
+                <strong>Phone:</strong> 800-742-8324
+                    <strong>Fax:</strong> 330-562-1999<br/>
+                <strong>Address:</strong> 1275 Danner DriveAurora, Ohio 44202<br/>
+            
+                <h2><a href="http://newyorklife.com/corporatecareers">New York Life Insurance Company</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time<br/>
+                <strong>Majors:</strong> Sociology, Psychology, Management -- Marketing (U), All Arts, Humanities, & Social Sciences, Economics, Bachelors, Political Science, Finance (G), Management -- Finance (U), History<br/>
+                <strong>Locations:</strong> Cleveland, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:nancy_maksomski@newyorklife.com">Nancy Maksomski</a>, Dirctor Talent Acquisition<br/>
+                <strong>Phone:</strong> 212-576-5714
+                    <strong>Fax:</strong> 212-447-4292<br/>
+                <strong>Address:</strong> 51 Madison AvenueRoom 108NY, NY 10013<br/>
+            
+                <h2><a href="http://www.nordson.com">Nordson Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Accounting/Accountancy, Chemical, Management -- Marketing (U), Computer Engineering, Electrical, Master of Engineering Management (G), Supply Chain (G), Finance (G), Bachelors, Management -- Finance (U), Computer Science<br/>
+                <strong>Locations:</strong> Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:jacquelyn.murdock@nordson.com">Jackie Murdock</a>, Generalist, Human Resources<br/>
+                <strong>Phone:</strong> 440-985-4689
+                    <strong>Fax:</strong> 440-985-1948<br/>
+                <strong>Address:</strong> 300 Nordson DriveAmherst, Ohio 44001<br/>
+            
+                <h2><a href="http://www.pnc.jobs/students">PNC Financial Services Group  (The)</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Management -- Marketing (U), Management -- Finance (U), Economics, Bachelors<br/>
+                <strong>Locations:</strong> Northeast<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:j.peters@pnc.com">Jeffrey Peters</a>, Recruiter<br/>
+                <strong>Phone:</strong> 412-762-0288
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 620 Liberty AvePittsburgh, PA 15222<br/>
+            
+                <h2><a href="https://www.philips.com/careers">Philips</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Management -- Marketing (U), Engineering Mechanics (G), Engineering Physics (U), Biomedical, Systems & Control, Bachelors, Master of Engineering Management (G), Supply Chain (G), Computer Engineering, Electrical, Management -- Finance (U), Computer Science<br/>
+                <strong>Locations:</strong> Cleveland, OH, Andover, MA, Bothell, WA, Murrysville, PA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:margaret.benoit@philips.com">Margaret Benoit</a>, Campus Recruiter<br/>
+                <strong>Phone:</strong> 978-659-3203
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 3000  Minuteman RoadAndover, MA  01810<br/>
+            
+                <h2><a href="http://www.rosetta.com">Rosetta</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Bachelors, Computer Science, Management -- Marketing (U), All Arts, Humanities, & Social Sciences, Computer Engineering<br/>
+                <strong>Locations:</strong> Cleveland, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:college.recruiting@rosetta.com">Halley Marsh</a>, College Recruiting Lead<br/>
+                <strong>Phone:</strong> 216-325-6015
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 629 Euclid AveCleveland OH 44114<br/>
+            
+                <h2><a href="http://www.urbancode.com">Urbancode, Inc.</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Management -- Marketing (U), Masters, Bachelors, Computer Science<br/>
+                <strong>Locations:</strong> Cleveland, Ohio, USA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:cjc@urbancode.com">Kit Corry</a>, Software Development Manager<br/>
+                <strong>Phone:</strong> 216-367-9892
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 2044 Euclid AvenueSuite 600Cleveland, Ohio 44115<br/>
+            
+        </div>
+    </body>
+</html>

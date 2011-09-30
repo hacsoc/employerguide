@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/typography.css"/>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/grid.css"/>
+        <title>%s</title>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25939700-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>
+        <h1 id="title">Companies looking for Operations Research (G) majors</h1>
+        <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
+        <div class="span-8 colborder" id="sidebar">
+            <h2>Majors</h2>
+            
+        </div>
+        <div class="span-15 last" id="content">
+            
+                <h2><a href="http://www.corporate.americangreetings.com">American Greetings Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Economics, English/Classics/Literature, Mathematics/Statistics, Management -- Marketing (U), All Arts, Humanities, & Social Sciences, Operations Research (G), Bachelors, Supply Chain (G), Psychology<br/>
+                <strong>Locations:</strong> Cleveland, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:chris.mahon@amgreetings.com">Christine Mahon</a>, Corporate Recruiter<br/>
+                <strong>Phone:</strong> 216-252-7300
+                    <strong>Fax:</strong> 216-252-6590<br/>
+                <strong>Address:</strong> One American Rd.Cleveland, OH  44144<br/>
+            
+                <h2><a href="http://www.bmpc.com">Bechtel Marine Propulsion Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Physics/Astronomy, Masters, Materials Science, Accounting/Accountancy, Economics, Doctoral, Operations Research (G), Engineering Physics (U), Chemical, Bachelors, Mechanical, Finance (G), Macromolecular Science (G), Fluid and Thermal (G), Management -- Finance (U), Chemistry/Natural Sciences, Mathematics/Statistics, Civil, Computer Engineering, Systems & Control, Electrical, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh,PA; Schenectady,NY; Charleston,SC; Idaho Falls,ID<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:matthew.shelley.contractor@unnpp.gov">Matthew Shelley</a>, Senior Engineer<br/>
+                <strong>Phone:</strong> 412-476-4976
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 814 Pittsburgh-McKeesport Blvd.West Mifflin, PA 15122-007937T/MER<br/>
+            
+                <h2><a href="http://www.cliffsnaturalresources.com">Cliffs Natural Resources</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Accounting/Accountancy, Economics, Operations Research (G), Bachelors, Positive Organizational Development (G), Supply Chain (G), Finance (G), Management -- Finance (U), Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Cleveland, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:samantha.shunk@cliffsnr.com">Samantha Shunk</a>, Human Resources Intern<br/>
+                <strong>Phone:</strong> 216-694-7456
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 200 Public Square, Suite 3300Cleveland, OH 44114<br/>
+            
+                <h2><a href="http://datel-group.com">DATEL Software Solutions</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Physics/Astronomy, Sociology, Psychology, Geology/Environmental Studies, Biochemistry, Interdisciplinary Programs and Modern Languages, Engineering Mechanics (G), All Sciences, Fluid and Thermal (G), Chemical, Electrical, Biomedical, Political Science, All Weatherhead, Finance (G), Macromolecular Science (G), Management -- Finance (U), Nutrition, English/Classics/Literature, Mathematics/Statistics, Supply Chain (G), Anthropology, Management -- Marketing (U), Systems & Control, Computer Science, Aerospace, All Engineering, Positive Organizational Development (G), Economics, MBA (G), Accounting/Accountancy, All Arts, Humanities, & Social Sciences, Operations Research (G), Engineering Physics (U), Communication Disorders/Cognitive Science, Bachelors, Master of Engineering Management (G), Mechanical, Philosophy/Religious Studies, Chemistry/Natural Sciences, History, Music/Music Education/Theatre/Dance, Civil, Materials Science, Teacher Education, Computer Engineering, Polymer Science, Art History/Art Education, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh, PA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:dlemke@datel-group.com">Dan Lemke</a>, Principal<br/>
+                <strong>Phone:</strong> 724-940-5150
+                    <strong>Fax:</strong> 724-940-5147<br/>
+                <strong>Address:</strong> DATEL Software Solutions12300 Perry HighwaySte. 306Wexford, PA. 15090<br/>
+            
+                <h2><a href="http://www.moen.com">Moen Incorporated</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Accounting/Accountancy, Engineering Mechanics (G), Operations Research (G), Fluid and Thermal (G), Chemical, Bachelors, Supply Chain (G), Mechanical, Finance (G), Engineering Physics (U), Management -- Finance (U), MBA (G), Mathematics/Statistics, Management -- Marketing (U), Systems & Control, Positive Organizational Development (G), Electrical, Polymer Science, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> North Olmsted, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:joe.kenderes@moen.com">Joe Kenderes</a>, Talent Acquisition Specialist<br/>
+                <strong>Phone:</strong> 440-962-2376
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 25300 Al Moen DriveNorth Olmsted, OH 44070<br/>
+            
+                <h2><a href="http://www.jobs.progressive.com">Progressive Insurance</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Mathematics/Statistics, Accounting/Accountancy, Economics, Operations Research (G), Bachelors, Finance (G), Management -- Finance (U)<br/>
+                <strong>Locations:</strong> Cleveland, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:kanders2@progressive.com">Kelly Anderson</a>, College Recruiter<br/>
+                <strong>Phone:</strong> 440-395-2582
+                    <strong>Fax:</strong> 440-446-7956<br/>
+                <strong>Address:</strong> 6300 WIlson Mills RoadMayfield Village, Ohio 44143<br/>
+            
+                <h2><a href="http://www.rootlearning.com">Root Learning</a></h2>
+                <strong>Degrees:</strong> Masters<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> MBA (G), Masters, Finance (G), Economics, Operations Research (G), Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Sylvania (Toledo, Ohio) or Chicago<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:kzucco@rootlearning.com">Kathy Zucco</a>, Recruiting Manager<br/>
+                <strong>Phone:</strong> 419-874-0077
+                    <strong>Fax:</strong> 419-874-4801<br/>
+                <strong>Address:</strong> 5470 Main StreetSylvania, Ohio  43560<br/>
+            
+        </div>
+    </body>
+</html>

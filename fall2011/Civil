@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/typography.css"/>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/grid.css"/>
+        <title>%s</title>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25939700-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>
+        <h1 id="title">Companies looking for Civil majors</h1>
+        <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
+        <div class="span-8 colborder" id="sidebar">
+            <h2>Majors</h2>
+            
+        </div>
+        <div class="span-15 last" id="content">
+            
+                <h2><a href="http://www.accenture.com">Accenture</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Accounting/Accountancy, Economics, Engineering Physics (U), Chemical, Bachelors, Master of Engineering Management (G), Mechanical, Management -- Finance (U), Mathematics/Statistics, Civil, Computer Engineering, Computer Science, Aerospace, Electrical, Biomedical<br/>
+                <strong>Locations:</strong> Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:rebecca.b.shapiro@accenture.com">Rebecca Shapiro</a>, Ohio Entry Level Recruiting Lead<br/>
+                <strong>Phone:</strong> 614-629-2516
+                    <strong>Fax:</strong> 614-629-1677<br/>
+                <strong>Address:</strong> 250 West StreetSuite 150Columbus, OH43215<br/>
+            
+                <h2><a href="http://www.bmpc.com">Bechtel Marine Propulsion Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Physics/Astronomy, Masters, Materials Science, Accounting/Accountancy, Economics, Doctoral, Operations Research (G), Engineering Physics (U), Chemical, Bachelors, Mechanical, Finance (G), Macromolecular Science (G), Fluid and Thermal (G), Management -- Finance (U), Chemistry/Natural Sciences, Mathematics/Statistics, Civil, Computer Engineering, Systems & Control, Electrical, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh,PA; Schenectady,NY; Charleston,SC; Idaho Falls,ID<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:matthew.shelley.contractor@unnpp.gov">Matthew Shelley</a>, Senior Engineer<br/>
+                <strong>Phone:</strong> 412-476-4976
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 814 Pittsburgh-McKeesport Blvd.West Mifflin, PA 15122-007937T/MER<br/>
+            
+                <h2><a href="http://ctconsultants.com">CT Consultants</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Internship<br/>
+                <strong>Majors:</strong> Civil, Bachelors<br/>
+                <strong>Locations:</strong> Mentor, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:csmith@ctconsultants.com">Cherie Smith</a>, Human Resources Coordinator<br/>
+                <strong>Phone:</strong> 440-951-9000
+                    <strong>Fax:</strong> 440-951-7487<br/>
+                <strong>Address:</strong> 8150 Sterling CourtMentor, OH 44060<br/>
+            
+                <h2><a href="http://datel-group.com">DATEL Software Solutions</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Physics/Astronomy, Sociology, Psychology, Geology/Environmental Studies, Biochemistry, Interdisciplinary Programs and Modern Languages, Engineering Mechanics (G), All Sciences, Fluid and Thermal (G), Chemical, Electrical, Biomedical, Political Science, All Weatherhead, Finance (G), Macromolecular Science (G), Management -- Finance (U), Nutrition, English/Classics/Literature, Mathematics/Statistics, Supply Chain (G), Anthropology, Management -- Marketing (U), Systems & Control, Computer Science, Aerospace, All Engineering, Positive Organizational Development (G), Economics, MBA (G), Accounting/Accountancy, All Arts, Humanities, & Social Sciences, Operations Research (G), Engineering Physics (U), Communication Disorders/Cognitive Science, Bachelors, Master of Engineering Management (G), Mechanical, Philosophy/Religious Studies, Chemistry/Natural Sciences, History, Music/Music Education/Theatre/Dance, Civil, Materials Science, Teacher Education, Computer Engineering, Polymer Science, Art History/Art Education, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh, PA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:dlemke@datel-group.com">Dan Lemke</a>, Principal<br/>
+                <strong>Phone:</strong> 724-940-5150
+                    <strong>Fax:</strong> 724-940-5147<br/>
+                <strong>Address:</strong> DATEL Software Solutions12300 Perry HighwaySte. 306Wexford, PA. 15090<br/>
+            
+                <h2><a href="http://spectraenergy.com">Spectra Energy</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Civil, Electrical, Bachelors, Mechanical<br/>
+                <strong>Locations:</strong> Houston, TX<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:adidway@spectraenergy.com">Analisa Didway</a>, HR Rep<br/>
+                <strong>Phone:</strong> 713-627-5161
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 5400 Westheimer CtHouston, TX 77056<br/>
+            
+                <h2><a href="http://www.turnerconstruction.com">Turner Construction</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Co-op<br/>
+                <strong>Majors:</strong> Civil, Bachelors, Mechanical<br/>
+                <strong>Locations:</strong> Cleveland, Ohio and throughout the USA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:ppolito@tcco.com">Phil Polito</a>, Cost Engineer<br/>
+                <strong>Phone:</strong> 216-522-1180
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 1422 Euclid Avenue Suite 1400<br/>
+            
+                <h2><a href="http://www.westinghousenuclear.com">Westinghouse Electric Company</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Finance (G), Materials Science, Masters, Civil, Chemical, Accounting/Accountancy, Computer Engineering, Electrical, Computer Science, Supply Chain (G), Mechanical, Bachelors<br/>
+                <strong>Locations:</strong> Nationwide<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:stinelcl@westinghouse.com">Cristina Stinelli</a>, University Relations Coordinator<br/>
+                <strong>Phone:</strong> 412-374-5086
+                    <strong>Fax:</strong> 724-940-8501<br/>
+                <strong>Address:</strong> 1000 Westinghouse DriveCranberry Twp, PA 16066<br/>
+            
+        </div>
+    </body>
+</html>

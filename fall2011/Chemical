@@ -1,0 +1,383 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/typography.css"/>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/grid.css"/>
+        <title>%s</title>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25939700-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>
+        <h1 id="title">Companies looking for Chemical majors</h1>
+        <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
+        <div class="span-8 colborder" id="sidebar">
+            <h2>Majors</h2>
+            
+        </div>
+        <div class="span-15 last" id="content">
+            
+                <h2><a href="http://www.accenture.com">Accenture</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Accounting/Accountancy, Economics, Engineering Physics (U), Chemical, Bachelors, Master of Engineering Management (G), Mechanical, Management -- Finance (U), Mathematics/Statistics, Civil, Computer Engineering, Computer Science, Aerospace, Electrical, Biomedical<br/>
+                <strong>Locations:</strong> Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:rebecca.b.shapiro@accenture.com">Rebecca Shapiro</a>, Ohio Entry Level Recruiting Lead<br/>
+                <strong>Phone:</strong> 614-629-2516
+                    <strong>Fax:</strong> 614-629-1677<br/>
+                <strong>Address:</strong> 250 West StreetSuite 150Columbus, OH43215<br/>
+            
+                <h2><a href="http://www.alcoa.com">Alcoa</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Accounting/Accountancy, Economics, Engineering Mechanics (G), Chemical, Bachelors, Master of Engineering Management (G), Supply Chain (G), Mechanical, Finance (G), Management -- Finance (U), MBA (G), Management -- Marketing (U), Computer Engineering, Computer Science, Aerospace, Electrical, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> US<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:mitzi.chiple@alcoa.com">Mitzi Chiple</a>, HR & Talent Analyst<br/>
+                <strong>Phone:</strong> 216-641-4408
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 6450 Rockside Blvd. S. Ste. 350Independence, OH 44131<br/>
+            
+                <h2><a href="https://www.babcock.com">Babcock & Wilcox Company (The)</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Chemical, Electrical, Bachelors, Mechanical<br/>
+                <strong>Locations:</strong> Ohio, Virginia, North Carolina, Pennsylvania, Georgia<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:tlvaughn@babcock.com">Terrie Vaughn</a>, College Recruiting Coordinator<br/>
+                <strong>Phone:</strong> 330-860-2139
+                    <strong>Fax:</strong> 330-860-1093<br/>
+                <strong>Address:</strong> 20 S. Van Buren Ave.<br/>
+            
+                <h2><a href="http://www.bmpc.com">Bechtel Marine Propulsion Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Physics/Astronomy, Masters, Materials Science, Accounting/Accountancy, Economics, Doctoral, Operations Research (G), Engineering Physics (U), Chemical, Bachelors, Mechanical, Finance (G), Macromolecular Science (G), Fluid and Thermal (G), Management -- Finance (U), Chemistry/Natural Sciences, Mathematics/Statistics, Civil, Computer Engineering, Systems & Control, Electrical, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh,PA; Schenectady,NY; Charleston,SC; Idaho Falls,ID<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:matthew.shelley.contractor@unnpp.gov">Matthew Shelley</a>, Senior Engineer<br/>
+                <strong>Phone:</strong> 412-476-4976
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 814 Pittsburgh-McKeesport Blvd.West Mifflin, PA 15122-007937T/MER<br/>
+            
+                <h2><a href="http://www.benvenue.com">Ben Venue Laboratories, Inc.</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Chemical, Masters, Bachelors, Biomedical, Biochemistry, Chemistry/Natural Sciences<br/>
+                <strong>Locations:</strong> Bedford, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:andrew.crawford@boehringer-ingelheim.com">Andrew Crawford</a>, Human Resources Business Partner<br/>
+                <strong>Phone:</strong> 440-201-3258
+                    <strong>Fax:</strong> 440-232-8751<br/>
+                <strong>Address:</strong> 300 Northfield RoadBedford, OH 44146<br/>
+            
+                <h2><a href="http://www.bloomberg.com/about/careers">Bloomberg</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Physics/Astronomy, Masters, Mathematics/Statistics, Doctoral, Engineering Mechanics (G), Chemical, Computer Engineering, Bachelors, Computer Science, Aerospace, Mechanical, Electrical, Engineering Physics (U)<br/>
+                <strong>Locations:</strong> New York <br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:zdeng5@bloomberg.com">Zoey Deng</a>, Recruiting Coordinator<br/>
+                <strong>Phone:</strong> 212-617-6124
+                    <strong>Fax:</strong> 646-268-6107<br/>
+                <strong>Address:</strong> 731 Lexington Ave <br/>
+            
+                <h2><a href="http://www.ba-thecenter.com">Bridgestone Americas Center for Research & Technology</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Co-op, Internship<br/>
+                <strong>Majors:</strong> Chemical, Materials Science, Masters, Polymer Science, Bachelors, Chemistry/Natural Sciences, Doctoral<br/>
+                <strong>Locations:</strong> Akron, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:sullivanlori@bfusa.com">Lori Sullivan</a>, Human Resources<br/>
+                <strong>Phone:</strong> 330-379-7573
+                    <strong>Fax:</strong> 330-379-7290<br/>
+                <strong>Address:</strong> 1655 S. Main St.Akron, OH  44301<br/>
+            
+                <h2><a href="http://www.cargill.com/">Cargill</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Chemical, Electrical, All Engineering, Bachelors, Mechanical<br/>
+                <strong>Locations:</strong> MN<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:cargill@recsolu.com">Ginger Hassler</a>, Recruiter<br/>
+                <strong>Phone:</strong> 312-489-2218
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 9320 Excelsior Blvd.Hopkins, MN 55343<br/>
+            
+                <h2><a href="http://www.nctm.com">Companies of North Coast (The)</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Co-op<br/>
+                <strong>Majors:</strong> Materials Science, Engineering Mechanics (G), Fluid and Thermal (G), Chemical, Systems & Control, Bachelors, Master of Engineering Management (G), Aerospace, Mechanical, Engineering Physics (U), Polymer Science<br/>
+                <strong>Locations:</strong> Cleveland, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:gem@nctm.com">Gemma Simonson</a>, H.R./Administrative Assistant<br/>
+                <strong>Phone:</strong> 216-398-8550
+                    <strong>Fax:</strong> 216-661-5777<br/>
+                <strong>Address:</strong> 4605 Spring RoadCleveland, Ohio  44131<br/>
+            
+                <h2><a href="http://datel-group.com">DATEL Software Solutions</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Physics/Astronomy, Sociology, Psychology, Geology/Environmental Studies, Biochemistry, Interdisciplinary Programs and Modern Languages, Engineering Mechanics (G), All Sciences, Fluid and Thermal (G), Chemical, Electrical, Biomedical, Political Science, All Weatherhead, Finance (G), Macromolecular Science (G), Management -- Finance (U), Nutrition, English/Classics/Literature, Mathematics/Statistics, Supply Chain (G), Anthropology, Management -- Marketing (U), Systems & Control, Computer Science, Aerospace, All Engineering, Positive Organizational Development (G), Economics, MBA (G), Accounting/Accountancy, All Arts, Humanities, & Social Sciences, Operations Research (G), Engineering Physics (U), Communication Disorders/Cognitive Science, Bachelors, Master of Engineering Management (G), Mechanical, Philosophy/Religious Studies, Chemistry/Natural Sciences, History, Music/Music Education/Theatre/Dance, Civil, Materials Science, Teacher Education, Computer Engineering, Polymer Science, Art History/Art Education, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh, PA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:dlemke@datel-group.com">Dan Lemke</a>, Principal<br/>
+                <strong>Phone:</strong> 724-940-5150
+                    <strong>Fax:</strong> 724-940-5147<br/>
+                <strong>Address:</strong> DATEL Software Solutions12300 Perry HighwaySte. 306Wexford, PA. 15090<br/>
+            
+                <h2><a href="http://www.energizer.com">Energizer</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Chemical, Electrical, Bachelors<br/>
+                <strong>Locations:</strong> Westlake, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:debbiel.maniscalco@energizer.com">Debbie Maniscalco</a>, Sr. HR Assistant<br/>
+                <strong>Phone:</strong> 440-835-7838
+                    <strong>Fax:</strong> 440-835-7577<br/>
+                <strong>Address:</strong> 25225 Detroit Rd.<br/>
+            
+                <h2><a href="http://www.namfg.com">Fives North American Combustion, Inc.</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Physics/Astronomy, Masters, Mathematics/Statistics, Doctoral, Fluid and Thermal (G), Chemical, Systems & Control, Bachelors, Computer Science, Aerospace, Mechanical, Electrical, Engineering Physics (U), Chemistry/Natural Sciences, Computer Engineering<br/>
+                <strong>Locations:</strong> Cleveland, Ohio (USA)<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:john.nowakowski@fivesgroup.com">John J. Nowakowski, P.E.</a>, Combustion Engineer<br/>
+                <strong>Phone:</strong> 216-271-6000
+                    <strong>Fax:</strong> 216-641-7852<br/>
+                <strong>Address:</strong> 4455 East 71st StreetCleveland, OH 44105<br/>
+            
+                <h2><a href="http://www.generalcable.com">General Cable</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Chemical, Materials Science, Polymer Science, Bachelors, Electrical<br/>
+                <strong>Locations:</strong> North America<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:amouch@generalcable.com">Andy Mouch</a>, Recruiting Manager<br/>
+                <strong>Phone:</strong> 859-572-8603
+                    <strong>Fax:</strong> 859-572-8548<br/>
+                <strong>Address:</strong> 4 Tesseneer Dr.Highland Heights, KY 41076<br/>
+            
+                <h2><a href="http://www.ge.com">General Electric Company</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Doctoral, Engineering Mechanics (G), Chemical, Bachelors, Biomedical, Mechanical, Finance (G), Macromolecular Science (G), Engineering Physics (U), Computer Engineering, Systems & Control, Computer Science, Aerospace, Fluid and Thermal (G), Electrical, Polymer Science, Master of Engineering Management (G)<br/>
+                <strong>Locations:</strong> Various locations<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:dale.mikol@ge.com">Dale Mikol</a>, Campus Recruiting Leader<br/>
+                <strong>Phone:</strong> 216-266-9746
+                    <strong>Fax:</strong> 216-266-2819<br/>
+                <strong>Address:</strong> 1975 Noble RoadBldg 335CEast Cleveland, OH 44112<br/>
+            
+                <h2><a href="http://www.graftech.com">GrafTech International</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Doctoral, Chemical, Computer Engineering, Bachelors, Computer Science, Mechanical, Electrical<br/>
+                <strong>Locations:</strong> Parma or Lakewood<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:michelle.reisinger@graftech.com">Michelle Reisinger</a>, Associate Director - Human Resources<br/>
+                <strong>Phone:</strong> 216-676-2386
+                    <strong>Fax:</strong> 216-676-2291<br/>
+                <strong>Address:</strong> 12900 Snow RoadParma, OH 44130<br/>
+            
+                <h2><a href="http://www.lincolnelectric.com">Lincoln Electric Company (The)</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Engineering Physics (U), Chemical, Computer Engineering, Bachelors, Mechanical, Electrical<br/>
+                <strong>Locations:</strong> Cleveland, Ohio for Engineering Opportunities<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:tamara_williams@lincolnelectric.com">Tamara Williams</a>, Recruiter<br/>
+                <strong>Phone:</strong> 216-383-2031
+                    <strong>Fax:</strong> 216-383-2172<br/>
+                <strong>Address:</strong> 22801 St Clair AveCleveland, Ohio 44117<br/>
+            
+                <h2><a href="http://www.lubrizol.com">Lubrizol</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Co-op, Internship<br/>
+                <strong>Majors:</strong> Management -- Marketing (U), Chemical, Accounting/Accountancy, Computer Engineering, Bachelors, Computer Science, Supply Chain (G), Mechanical, Chemistry/Natural Sciences, Management -- Finance (U)<br/>
+                <strong>Locations:</strong> Wickliffe, Ohio and Brecksville, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:debbie.derenzo@lubrizol.com">Debbie DeRenzo</a>, Corporate Recruiter<br/>
+                <strong>Phone:</strong> 440-347-1044
+                    <strong>Fax:</strong> 440-347-5317<br/>
+                <strong>Address:</strong> 29400 Lakeland BlvdWickliffe, OH 44092<br/>
+            
+                <h2><a href="http://www.moen.com">Moen Incorporated</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Accounting/Accountancy, Engineering Mechanics (G), Operations Research (G), Fluid and Thermal (G), Chemical, Bachelors, Supply Chain (G), Mechanical, Finance (G), Engineering Physics (U), Management -- Finance (U), MBA (G), Mathematics/Statistics, Management -- Marketing (U), Systems & Control, Positive Organizational Development (G), Electrical, Polymer Science, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> North Olmsted, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:joe.kenderes@moen.com">Joe Kenderes</a>, Talent Acquisition Specialist<br/>
+                <strong>Phone:</strong> 440-962-2376
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 25300 Al Moen DriveNorth Olmsted, OH 44070<br/>
+            
+                <h2><a href="http://www.momentive.com">Momentive</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Chemical, Materials Science, Masters, Bachelors, Mechanical, Doctoral<br/>
+                <strong>Locations:</strong> Various<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:lissette.marquez@momentive.com">Lissette Marquez-Majerczak</a>, Global Human Resources Leader<br/>
+                <strong>Phone:</strong> 440-878-5748
+                    <strong>Fax:</strong> 440-878-7491<br/>
+                <strong>Address:</strong> 22557 West Lunn RoadStrongsville, OH 44149<br/>
+            
+                <h2><a href="http://www.nordson.com">Nordson Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Accounting/Accountancy, Chemical, Management -- Marketing (U), Computer Engineering, Electrical, Master of Engineering Management (G), Supply Chain (G), Finance (G), Bachelors, Management -- Finance (U), Computer Science<br/>
+                <strong>Locations:</strong> Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:jacquelyn.murdock@nordson.com">Jackie Murdock</a>, Generalist, Human Resources<br/>
+                <strong>Phone:</strong> 440-985-4689
+                    <strong>Fax:</strong> 440-985-1948<br/>
+                <strong>Address:</strong> 300 Nordson DriveAmherst, Ohio 44001<br/>
+            
+                <h2><a href="http://www.omnova.com">OMNOVA Solutions</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Chemical, Masters, Bachelors, Mechanical, Electrical, Polymer Science<br/>
+                <strong>Locations:</strong> Akron, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:natalie.capron@omnova.com">Natalie Capron</a>, HR Generalist<br/>
+                <strong>Phone:</strong> 330-628-6535
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 165 S. Cleveland AveMogadore, OH 44260<br/>
+            
+                <h2><a href="http://www.oakwoodlabs.com">Oakwood Laboratories</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Practicum, Co-op<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Masters, Polymer Science, Biochemistry, Doctoral, Chemical, Bachelors, Biomedical, Chemistry/Natural Sciences<br/>
+                <strong>Locations:</strong> Oakwood Village, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:swittek@oakwoodlabs.com">Susan Wittek</a>, BD and Client Project Coordinator<br/>
+                <strong>Phone:</strong> 440-359-0000
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 7670 First PlaceOakwood Village, OH 44146<br/>
+            
+                <h2><a href="http://www.ppg.com">PPG Industries, Inc</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Chemical, Bachelors, Computer Science, Mechanical, Electrical, Chemistry/Natural Sciences<br/>
+                <strong>Locations:</strong> Nationwide<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:ppg@recsolu.com">Amy Trapp</a>, Recruiter<br/>
+                <strong>Phone:</strong> 312-489-2216
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 954 West Washington Blvd.Ste. 430Chicago, IL 60607<br/>
+            
+                <h2><a href="http://www.parker.com">Parker Hannifin Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Chemical, Electrical, Bachelors, Supply Chain (G), Mechanical<br/>
+                <strong>Locations:</strong> Multiple U.S. locations<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:crogers@parker.com">Carolyn Rogers</a>, Recruitment Coordinator<br/>
+                <strong>Phone:</strong> 216-896-2543
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 6035 Parkland Blvd.Cleveland, OH  44124<br/>
+            
+                <h2><a href="http://www.polyone.com">PolyOne Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Polymer Science, MBA (G), Doctoral, Chemical, Computer Engineering, Bachelors, Computer Science, Chemistry/Natural Sciences<br/>
+                <strong>Locations:</strong> Avon Lake, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:matthew.r.campbell@polyone.com">Matt Campbell</a>, Recruiting Manager<br/>
+                <strong>Phone:</strong> 440-930-3187
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 33587 Walker Rd.Avon Lake, OH 44012<br/>
+            
+                <h2><a href="http://www.rogerscorp.com">Rogers Corporation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Chemical, Materials Science, Masters, Bachelors, Polymer Science, Doctoral<br/>
+                <strong>Locations:</strong> Connecticut & Illnois<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:jane.morse@rogerscorporation.com">Jane Morse</a>, Corporate Recruiter<br/>
+                <strong>Phone:</strong> 860-779-5719
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> PO Box 188 Rogers, CT  06263-0188<br/>
+            
+                <h2><a href="http://www.saint-gobain-corporation.com/">Saint-Gobain</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Polymer Science, Doctoral, Engineering Mechanics (G), Chemical, Bachelors, Mechanical, Fluid and Thermal (G)<br/>
+                <strong>Locations:</strong> Northboro, Mass<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:denise.a.ramelli@saint-gobain.com">Denise Ramelli</a>, HR Coordinator<br/>
+                <strong>Phone:</strong> 508-351-7834
+                    <strong>Fax:</strong> 877-596-0477<br/>
+                <strong>Address:</strong> 9 Goddard RoadNorthboro, MA  01532<br/>
+            
+                <h2><a href="http://www.swagelok.com">Swagelok</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Internship<br/>
+                <strong>Majors:</strong> Materials Science, Masters, Supply Chain (G), MBA (G), Accounting/Accountancy, Engineering Physics (U), Chemical, Bachelors, Aerospace, Mechanical, Electrical<br/>
+                <strong>Locations:</strong> Solon, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:tosin.araba@swagelok.com">Tosin Araba</a>, HR Services Coordinator<br/>
+                <strong>Phone:</strong> 440-649-4113
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 31500 Aurora Road, Solon, Oh 44139<br/>
+            
+                <h2><a href="http://www.westinghousenuclear.com">Westinghouse Electric Company</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time, Co-op, Internship<br/>
+                <strong>Majors:</strong> Finance (G), Materials Science, Masters, Civil, Chemical, Accounting/Accountancy, Computer Engineering, Electrical, Computer Science, Supply Chain (G), Mechanical, Bachelors<br/>
+                <strong>Locations:</strong> Nationwide<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:stinelcl@westinghouse.com">Cristina Stinelli</a>, University Relations Coordinator<br/>
+                <strong>Phone:</strong> 412-374-5086
+                    <strong>Fax:</strong> 724-940-8501<br/>
+                <strong>Address:</strong> 1000 Westinghouse DriveCranberry Twp, PA 16066<br/>
+            
+        </div>
+    </body>
+</html>

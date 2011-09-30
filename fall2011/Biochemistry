@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/typography.css"/>
+        <link rel="stylesheet" type="text/css"  
+            href="blueprintcss/grid.css"/>
+        <title>%s</title>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25939700-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <a href="http://studentaffairs.case.edu/careers/"><img src="banner.jpg" style="float: right"/></a>
+        <h1 id="title">Companies looking for Biochemistry majors</h1>
+        <h3>Produced by members of the <a href="http://goto.case.edu/">CWRU Hacker Society</a></h3>
+        <div class="span-8 colborder" id="sidebar">
+            <h2>Majors</h2>
+            
+        </div>
+        <div class="span-15 last" id="content">
+            
+                <h2><a href="http://www.benvenue.com">Ben Venue Laboratories, Inc.</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Chemical, Masters, Bachelors, Biomedical, Biochemistry, Chemistry/Natural Sciences<br/>
+                <strong>Locations:</strong> Bedford, Ohio<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:andrew.crawford@boehringer-ingelheim.com">Andrew Crawford</a>, Human Resources Business Partner<br/>
+                <strong>Phone:</strong> 440-201-3258
+                    <strong>Fax:</strong> 440-232-8751<br/>
+                <strong>Address:</strong> 300 Northfield RoadBedford, OH 44146<br/>
+            
+                <h2><a href="http://www.cincinnatichildrens.org">CIncinnati Children's Research Foundation</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Masters, Psychology, Mathematics/Statistics, Biochemistry, Doctoral, Bachelors, Biomedical, Mandel School of Applied Social Sciences (social work) (G), Chemistry/Natural Sciences<br/>
+                <strong>Locations:</strong> Cincinnati, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:kenneth.leslie@cchmc.org">Kenneth A. Leslie, PhD</a>, Scientist Recruiter<br/>
+                <strong>Phone:</strong> 513-636-2532
+                    <strong>Fax:</strong> 513-636-2066<br/>
+                <strong>Address:</strong> MLC 70013333 Burnet AvenueCincinnati, OH 45229-3039<br/>
+            
+                <h2><a href="http://datel-group.com">DATEL Software Solutions</a></h2>
+                <strong>Degrees:</strong> Bachelors<br/>
+                <strong>Position types:</strong> Part-Time, Full Time, Practicum, Co-op, Internship<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Physics/Astronomy, Sociology, Psychology, Geology/Environmental Studies, Biochemistry, Interdisciplinary Programs and Modern Languages, Engineering Mechanics (G), All Sciences, Fluid and Thermal (G), Chemical, Electrical, Biomedical, Political Science, All Weatherhead, Finance (G), Macromolecular Science (G), Management -- Finance (U), Nutrition, English/Classics/Literature, Mathematics/Statistics, Supply Chain (G), Anthropology, Management -- Marketing (U), Systems & Control, Computer Science, Aerospace, All Engineering, Positive Organizational Development (G), Economics, MBA (G), Accounting/Accountancy, All Arts, Humanities, & Social Sciences, Operations Research (G), Engineering Physics (U), Communication Disorders/Cognitive Science, Bachelors, Master of Engineering Management (G), Mechanical, Philosophy/Religious Studies, Chemistry/Natural Sciences, History, Music/Music Education/Theatre/Dance, Civil, Materials Science, Teacher Education, Computer Engineering, Polymer Science, Art History/Art Education, Organizational Behavior (G)<br/>
+                <strong>Locations:</strong> Pittsburgh, PA<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:dlemke@datel-group.com">Dan Lemke</a>, Principal<br/>
+                <strong>Phone:</strong> 724-940-5150
+                    <strong>Fax:</strong> 724-940-5147<br/>
+                <strong>Address:</strong> DATEL Software Solutions12300 Perry HighwaySte. 306Wexford, PA. 15090<br/>
+            
+                <h2><a href="http://www.oakwoodlabs.com">Oakwood Laboratories</a></h2>
+                <strong>Degrees:</strong> Bachelors, Masters, Doctoral<br/>
+                <strong>Position types:</strong> Full Time, Practicum, Co-op<br/>
+                <strong>Majors:</strong> Biology/Systems Biology/Evolutionary Biology, Masters, Polymer Science, Biochemistry, Doctoral, Chemical, Bachelors, Biomedical, Chemistry/Natural Sciences<br/>
+                <strong>Locations:</strong> Oakwood Village, OH<br/>
+                <strong>F1:</strong> No<br/>
+                <br/>
+                <strong>Contact:</strong> <a href="mailto:swittek@oakwoodlabs.com">Susan Wittek</a>, BD and Client Project Coordinator<br/>
+                <strong>Phone:</strong> 440-359-0000
+                    <strong>Fax:</strong> <br/>
+                <strong>Address:</strong> 7670 First PlaceOakwood Village, OH 44146<br/>
+            
+        </div>
+    </body>
+</html>

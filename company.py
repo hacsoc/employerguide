@@ -1,6 +1,28 @@
-# -*- coding: utf-8 -*-
+from collections import namedtuple
+from functools import reduce
 import itertools
 import re
+
+
+Cols = namedtuple( 'Cols', [
+    'company_name',
+    'url',
+    'description',
+    'junk',
+    'contact_name',
+    'contact_title',
+    'address',
+    'phone',
+    'fax',
+    'contact_email',
+    'position_types',
+    'degrees',
+    'majors_artsci',
+    'majors_eng',
+    'majors_mgmt',
+    'majors_professional',
+    'f1',
+    'locations'])
 
 def parse_nested_lists(mlists):
     """
@@ -58,8 +80,8 @@ def fix_address(a):
         city = 'New York'
         words[-4] = words[-4][:-3]
 
-    if len(words) <= 4 or city == u'Ave.':
-        return u' '.join(words) + u'\n'
+    if len(words) <= 4 or city == 'Ave.':
+        return ' '.join(words) + '\n'
 
     index_of_first_number = 0
     while not words[index_of_first_number].isdigit() and not words[index_of_first_number] == 'P.O.':
@@ -67,11 +89,11 @@ def fix_address(a):
     if index_of_first_number >= len(words)-3 or index_of_first_number <= 1:
         index_of_first_number = 0
     if index_of_first_number == 0:
-        return u"%s<br/>%s, %s %s" % (u' '.join(words[:-3]), city, state, zipcode)
+        return "%s<br/>%s, %s %s" % (' '.join(words[:-3]), city, state, zipcode)
     else:
-        firstline = u' '.join(words[:index_of_first_number])
-        secondline = u' '.join(words[index_of_first_number:-3])
-        return u"%s<br/>%s<br/>%s, %s %s" % (firstline, secondline, city, state, zipcode)
+        firstline = ' '.join(words[:index_of_first_number])
+        secondline = ' '.join(words[index_of_first_number:-3])
+        return "%s<br/>%s<br/>%s, %s %s" % (firstline, secondline, city, state, zipcode)
 
 NAME_URL_DESC = (0, 3)
 CONTACTNAME = (4, 6)
@@ -82,42 +104,35 @@ MAJORS = (13, 18)
 F1 = 18
 LOCATIONS = 19
 
-def test(values):
-    print values[NAME_URL_DESC[0]:NAME_URL_DESC[1]]
-    print values[CONTACTNAME[0]:CONTACTNAME[1]]
-    print values[CONTACTINFO[0]:CONTACTINFO[1]]
-    print liberate_semicolon_strings(values[POSITIONTYPES])
-    print liberate_semicolon_strings(values[DEGREES])
-    print set(parse_nested_lists(values[MAJORS[0]:MAJORS[1]]))
-    print [liberate_semicolon_strings(values[MAJORS[0]+i]) for i in xrange(5)]
-    print values[F1].lower() == 'y'
-    print values[LOCATIONS]
-
 class Company(object):
-    def __init__(self, values):
-        self.name, self.url, self.description = values[NAME_URL_DESC[0]:NAME_URL_DESC[1]]
-        self.contact_name, self.contact_title = values[CONTACTNAME[0]:CONTACTNAME[1]]
-        self.address, self.phone, self.fax, self.contact_email = \
-            values[CONTACTINFO[0]:CONTACTINFO[1]]
-        self.address = fix_address(self.address)
-        self.position_types = liberate_semicolon_strings(values[POSITIONTYPES])
-        self.degrees = liberate_semicolon_strings(values[DEGREES])
+    def __init__(self, *values):
+        cols = Cols(*values)
+        self.name = cols.company_name
+        self.url = cols.url
+        self.description = cols.description
+        self.contact_name = cols.contact_name
+        self.contact_title = cols.contact_title
+        self.contact_email = cols.contact_email
+        self.address = cols.address
+        # self.address = fix_address(cols.address)
+        self.phone = cols.phone
+        self.fax = cols.fax
+        self.position_types = liberate_semicolon_strings(cols.position_types)
+        self.degrees = liberate_semicolon_strings(cols.degrees)
         
-        self.majors = set(parse_nested_lists(values[MAJORS[0]:MAJORS[1]]))
+        semi_mlists = (cols.degrees, cols.majors_artsci, cols.majors_eng,
+                       cols.majors_mgmt, cols.majors_professional)
+        self.mlists = [liberate_semicolon_strings(x) for x in semi_mlists]
+        self.majors = reduce(lambda a, b: set(a) | set(b), self.mlists, set())
         
-        self.mlists = [liberate_semicolon_strings(values[MAJORS[0]+i]) for i in xrange(5)]
-        
-        self.f1 = values[F1].lower() == 'y'
-        self.locations = values[LOCATIONS]
+        self.f1 = (cols.f1 == 'y')
+        self.locations = cols.locations
         self.session = ''
         self.oci = False
         self.ocif = False
     
     def shortstring(self):
         return "%s - %s" % (self.name, self.url)
-    
-    def link(self):
-        return '<a href="%s">%s</a>' % (self.url, self.name)
     
     def __str__(self):
         title = "%s - %s" % (self.name, self.url)
@@ -129,7 +144,6 @@ class Company(object):
                           titledashes, 
                           contact, 
                           self.locations, 
-                          ', '.join(self.looking_for), 
                           ', '.join(self.majors), 
                           '', 
                           self.description, 

@@ -40,39 +40,53 @@ def make_arg_parser():
     return parser
 
 
-def process(args):
-    season_name = {'fall': 'Fall', 'spring': 'Spring'}[args.season]
 
+def process(args):
+    # 1. Convert
+
+    # CSV -> sorted list of all companies
     with open(args.data, 'r') as csv_f:
         reader = csv.reader(csv_f, dialect=csv.excel)
         sorted_companies = sorted((Company(*row) for row in list(reader)[1:]),
-                                  key=lambda c: c.name)
-        all_companies = {c.name: c for c in sorted_companies}
-        majors = set()
-        mlists = [set() for i in range(4)]
-        all_degrees = set()
-        for c in all_companies.values():
-            majors = majors | set(c.majors)
-            all_degrees = all_degrees | set(c.degrees)
-            for i in range(len(mlists)):
-                mlists[i] = mlists[i] | set(c.mlists[i])
+                                  key=lambda c: c.name.lower())
 
-        titles = ('Degrees',
-                  'College of Arts and Sciences',
-                  'Case School of Engineering',
-                  'Weatherhead School of Management',
-                  'Professional Schools')
-        sections = list(zip(titles, [sorted(all_degrees)] + [sorted(l) for l in mlists]))
+    # 2. Store sets of values
 
-    print(len([c for c in sorted_companies if 'Computer Science' in c.majors]))
-    print(len(sorted_companies))
+    # The CSV breaks majors into 4 categories, so we do too
+    mlists = [set() for i in range(4)]
 
+    # But we also combine them into one master set
+    majors = set()
+
+    # also store a set of all degrees
+    all_degrees = set()
+
+    for c in sorted_companies:
+        # set unions
+        majors = majors | set(c.majors)
+        all_degrees = all_degrees | set(c.degrees)
+        for i in range(len(mlists)):
+            mlists[i] = mlists[i] | set(c.mlists[i])
+
+    # 3. Construct sidebar sections [(section_title, list_items)]
+
+    titles = ('Degrees',
+              'College of Arts and Sciences',
+              'Case School of Engineering',
+              'Weatherhead School of Management',
+              'Professional Schools')
+    sections = list(zip(titles, [sorted(all_degrees)] + [sorted(l) for l in mlists]))
+
+    # 4. Initialize output directory
     out_dir = '{args.season}{args.year}'.format(args=args)
     shutil.rmtree(out_dir)
-    os.mkdir(out_dir)
 
+    os.mkdir(out_dir)
     shutil.copytree('content', os.path.join(out_dir, 'content'))
 
+    # 5. Generate output files
+
+    season_name = {'fall': 'Fall', 'spring': 'Spring'}[args.season]
     title = 'CWRU Career Fair {0} {1} Employer Guide'.format(season_name, args.year)
     companies = sorted_companies
     render('template.html', os.path.join(out_dir, 'index.html'), **locals())
@@ -84,14 +98,12 @@ def process(args):
         render('template.html',
                os.path.join(out_dir, sanitized(major) + '.html'),
                **locals())
-
     for degree in all_degrees:
         title = 'Companies looking for {0} students'.format(degree)
         companies = [c for c in sorted_companies if degree in c.degrees]
         render('template.html',
                os.path.join(out_dir, sanitized(degree) + '.html'),
                **locals())
-
 
 if __name__ == '__main__':
     parser = make_arg_parser()

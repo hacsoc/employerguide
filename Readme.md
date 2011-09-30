@@ -14,6 +14,8 @@ This is a static site generator that generates web versions of CWRU career fair 
     optional arguments:
       -h, --help     show this help message and exit
 
-Output will be in `{season}{year}/`. `index.html` will link to files in that directory.
+Output will be in `{season}{year}/`. `index.html` in the root directory will link to files in `{season}{year}/` so that Github Pages shows the index as the main page.
+
+Files in `content/` will be copied to the output directory.
 
 The CSV columns are defined in `company.py`.
